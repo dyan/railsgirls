@@ -1,0 +1,26 @@
+// Place all the styles related to the ideas controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.thumb {
+	position: relative;
+}
+
+.thumb:hover .full {
+	display: block;
+}
+
+.full {
+	display: none;
+	position: absolute;
+	top: -15px;
+	left: 50px;
+	padding: 20px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 10px;	
+		img {
+			margin: 0 auto;
+		}
+
+}
